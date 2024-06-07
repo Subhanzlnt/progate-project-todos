@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import PropTypes from 'prop-types';
 import TodoItem from './TodoItem';
 
 const TodoList = ({ todos, handleStatus, handleDelete }) => {
@@ -9,6 +10,13 @@ const TodoList = ({ todos, handleStatus, handleDelete }) => {
       ))}
     </div>
   );
+};
+
+
+TodoList.propTypes = {
+  todos: PropTypes.array.isRequired,
+  handleStatus: PropTypes.func.isRequired,
+  handleDelete: PropTypes.func.isRequired,
 };
 
 export default TodoList;

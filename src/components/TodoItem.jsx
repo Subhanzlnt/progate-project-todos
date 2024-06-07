@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import PropTypes from 'prop-types';
 
 const TodoItem = ({ todo, handleStatus, handleDelete }) => {
   const getTodoTitleStyle = () => {
@@ -24,6 +25,13 @@ const TodoItem = ({ todo, handleStatus, handleDelete }) => {
       </div>
     </div>
   );
+};
+
+
+TodoItem.propTypes = {
+  todo: PropTypes.object.isRequired,
+  handleStatus: PropTypes.func.isRequired,
+  handleDelete: PropTypes.func.isRequired,
 };
 
 export default TodoItem;

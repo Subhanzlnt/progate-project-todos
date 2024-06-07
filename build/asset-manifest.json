@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/progate-project-todos/static/css/main.f3ff858a.css",
+    "main.js": "/progate-project-todos/static/js/main.f5a4b9ee.js",
+    "index.html": "/progate-project-todos/index.html",
+    "main.f3ff858a.css.map": "/progate-project-todos/static/css/main.f3ff858a.css.map",
+    "main.f5a4b9ee.js.map": "/progate-project-todos/static/js/main.f5a4b9ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ff858a.css",
+    "static/js/main.f5a4b9ee.js"
+  ]
+}
