@@ -11,8 +11,7 @@ const getTodos = () => {
 const changeTodoStatus = (id) => {
     return todos.map((todo) => {
         if (todo.id === id) {
-            // Menghindari mutasi langsung pada objek
-            return { ...todo, done: !todo.done };
+            todo.done = !todo.done
         }
         return todo;
     });
